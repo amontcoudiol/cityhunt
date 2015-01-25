@@ -13,3 +13,19 @@
  *= require_tree .
  *= require_self
  */
+
+// Bootstrap over-ride FIRST
+/* eg
+$body-bg: yellow;
+$link-hover-decoration: none;
+*/
+
+// THEN import SCSS files installed with gems
+@import "bootstrap";
+@import "font-awesome-sprockets";
+@import "font-awesome";
+
+// THEN import your SCSS files
+/* eg
+@import "navbar";
+*/

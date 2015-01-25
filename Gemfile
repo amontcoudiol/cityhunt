@@ -38,3 +38,13 @@ gem 'spring',        group: :development
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
+gem 'devise', '~> 3.4.1'
+gem 'omniauth-facebook'
+gem 'bootstrap-sass', '~> 3.3.3'
+gem 'font-awesome-sass', '~> 4.2.0'
+gem 'bootstrap_form'
+gem 'rails_12factor', group: :production
+gem 'binding_of_caller', group: :development
+gem 'better_errors', group: :development
+
+gem 'figaro'
